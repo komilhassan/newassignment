@@ -111,6 +111,27 @@
     td {
       font-size: small;
     }
+
+    .sociallinks{
+      border: 1px solid;
+      display: flex;
+      background-color: black;
+      color: white;
+      margin: auto;
+      width: 60%;  
+    }
+
+    @media print{
+      .np{
+        display: none;
+      }
+      .print{
+        display: inline-block;
+      }
+    }
+  li{
+    list-style: none;
+  }
   </style>
 </head>
 
@@ -210,8 +231,24 @@
       </ul>
     </div>
 
+    
   </div>
-
+  <div class="sociallinks">
+    <h1 style="font-size: medium;">sociallinks:</h1>
+    
+    <div class="links"> 
+    <a href="www.linkedin.com/in/komil-hassan-a97b66282" class="np">linkedin</a>
+   <a href="www.linkedin.com/in/komil-hassan-a97b66282" class="print">www.linkedin.com/in/komil-hassan-a97b66282</a> 
+  </div> 
+  <div class="link2"> 
+    <a href="https://github.com/account" class="np">github</a>
+   <a href="https://github.com/account" class="print">https://github.com/account</a> 
+  </div> 
+  <div class="link3"> 
+    <a href="https://www.facebook.com/ali.komil.96?mibextid=ZbWKwL" class="np">facebook</a>
+   <a href="https://www.facebook.com/ali.komil.96?mibextid=ZbWKwL" class="print">https://www.facebook.com/ali.komil.96?mibextid=ZbWKwL</a> 
+  </div> 
+  </div>
 </body>
 
 </html>
